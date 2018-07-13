@@ -1,0 +1,52 @@
+body{
+    background-color:rgb(245,245,245);
+    font-family: 'Roboto Mono', monospace;
+}
+.container{
+    position:relative;
+}
+.tier-container{
+    position:relative;
+    top:20%;
+    left:20%;
+    box-shadow: 2px 
+}
+.center{
+    text-align: center;
+}
+.inline-tier{
+    /* position:relative; */
+    display:inline-block;
+    padding:20px;
+    width:20%;
+    background-color: rgb(255,255,255);
+    box-shadow: 2px 2px 4px 4px rgba(59,71,80, 0.2);
+}
+.inline-tier:hover{
+    box-shadow: 2px 2px 8px 8px rgba(59,71,80, 0.1);
+}
+.tier{
+    color:rgb(59,71,80);
+    font-weight:500;
+    font-size:1.8em;
+    padding:20px 20px;
+}
+.quote{
+    font-size:3em;
+    padding:5px 20px;
+    color:rgb(87,164,255);
+}
+.features{
+    color:rgb(59,71,80);
+    font-weight:300;
+    padding:15px;
+}
+.action{
+    margin-top:40px;
+    /* margin-bottom:5px;     */
+    
+}
+.action-button{
+    background:rgb(87,164,255);
+    padding:5px 15px;
+}
